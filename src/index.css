@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm sunset palette */
+  --color-bg-primary: #1a0f0a;
+  --color-bg-card: rgba(255, 245, 235, 0.92);
+  --color-bg-input: rgba(255, 235, 215, 0.85);
+  --color-border-subtle: rgba(180, 120, 90, 0.25);
+  --color-text-primary: #2d1f1a;
+  --color-text-secondary: #5a4a42;
+  --color-text-muted: #8a7a72;
+  --color-accent: #e85d4e;
+  --color-accent-dim: rgba(232, 93, 78, 0.15);
+  --color-success: #2a9d8f;
+  --color-error: #c0392b;
+  --color-warning: #e9c46a;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+input:focus {
+  outline: none;
+}
